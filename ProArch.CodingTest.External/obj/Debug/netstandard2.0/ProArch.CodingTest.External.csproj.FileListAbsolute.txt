@@ -1,0 +1,9 @@
+C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.CodingTest.External\bin\Debug\netstandard2.0\ProArch.CodingTest.External.deps.json
+C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.CodingTest.External\bin\Debug\netstandard2.0\ProArch.CodingTest.External.dll
+C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.CodingTest.External\bin\Debug\netstandard2.0\ProArch.CodingTest.External.pdb
+C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.CodingTest.External\obj\Debug\netstandard2.0\ProArch.CodingTest.External.csproj.CoreCompileInputs.cache
+C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.CodingTest.External\obj\Debug\netstandard2.0\ProArch.CodingTest.External.AssemblyInfoInputs.cache
+C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.CodingTest.External\obj\Debug\netstandard2.0\ProArch.CodingTest.External.AssemblyInfo.cs
+C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.CodingTest.External\obj\Debug\netstandard2.0\ProArch.CodingTest.External.dll
+C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.CodingTest.External\obj\Debug\netstandard2.0\ProArch.CodingTest.External.pdb
+C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.CodingTest.External\obj\Debug\netstandard2.0\ProArch.CodingTest.External.csprojResolveAssemblyReference.cache
