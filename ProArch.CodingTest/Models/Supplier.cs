@@ -1,5 +1,9 @@
 ﻿namespace ProArch.CodingTest.Models
 {
+    /// <summary>
+    /// Note, we can use abstract/child classes to implement open/closed of SOLID instead of is external but not doing due to time constraint.
+    /// </summary>
+
     public class Supplier
     {
         public Supplier(int id, string name, bool isExternal)

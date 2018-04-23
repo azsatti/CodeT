@@ -1,4 +1,6 @@
-﻿namespace ProArch.Coding.UnitTest.Services
+﻿using Microsoft.Extensions.Logging;
+
+namespace ProArch.Coding.UnitTest.Services
 {
     using Microsoft.Extensions.Logging.Abstractions;
     using Moq;
@@ -14,6 +16,7 @@
         [Test]
         public void Test_ExternalSupplierWithoutFailOver()
         {
+           var loggerFactory = new LoggerFactory().AddConsole(LogLevel.Information);
            var supplier = new Supplier(1, "External Supplier Without failover", true);
            var mockSupplier = new Mock<ISupplierService>();
            mockSupplier.Setup(m => m.GetById(1)).Returns(supplier);
@@ -24,7 +27,7 @@
            var spendService = new SpendService(mockSupplier.Object,
                 mockRepository.Object,
                 mockFailover.Object,
-               new NullLogger<SpendServiceTest>());  // We can replace with other loggers etc
+               loggerFactory);  // We can replace with other loggers etc
 
             var result = spendService.GetTotalSpend(1);
             result.Name.Should().Be("External Supplier Without failover");
@@ -33,6 +36,7 @@
         [Test]
         public void Test_InternalSupplier()
         {
+            var loggerFactory = new LoggerFactory().AddConsole(LogLevel.Information);
             var supplier = new Supplier(2, "Internal Supplier", false);
             var mockSupplier = new Mock<ISupplierService>();
             mockSupplier.Setup(m => m.GetById(2)).Returns(supplier);
@@ -44,7 +48,7 @@
             var spendService = new SpendService(mockSupplier.Object,
                 mockRepository.Object,
                 mockFailover.Object,
-                new NullLogger<SpendServiceTest>()); // We can replace with other loggers etc
+                loggerFactory); // We can replace with other loggers etc
 
             var result = spendService.GetTotalSpend(2);
             result.Name.Should().Be("Internal Supplier");

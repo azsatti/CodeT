@@ -101,8 +101,10 @@ C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\System.X
 C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\System.Xml.XPath.XDocument.dll
 C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\Castle.Core.dll
 C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\FluentAssertions.dll
+C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\Microsoft.Extensions.Logging.Console.dll
 C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\Microsoft.Extensions.Logging.dll
 C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\Microsoft.Extensions.Options.dll
 C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\Microsoft.Extensions.Primitives.dll
@@ -119,9 +121,11 @@ C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\ProArch.
 C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\Castle.Core.xml
 C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\FluentAssertions.pdb
 C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\FluentAssertions.xml
+C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
 C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\Microsoft.Extensions.Logging.xml
 C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\Microsoft.Extensions.Logging.Console.xml
 C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\Microsoft.Extensions.Options.xml
 C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\Microsoft.Extensions.Primitives.xml
 C:\Aftab\CodeAZ\CodingTest\CodingTest\ProArch.Coding.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
