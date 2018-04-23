@@ -1,8 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
-
-namespace ProArch.Coding.UnitTest.Services
+﻿namespace ProArch.Coding.UnitTest.Services
 {
-    using Microsoft.Extensions.Logging.Abstractions;
+    using Microsoft.Extensions.Logging;
     using Moq;
     using NUnit.Framework;
     using ProArch.CodingTest.Interfaces;
