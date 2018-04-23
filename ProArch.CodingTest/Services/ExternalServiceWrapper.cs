@@ -30,11 +30,10 @@ namespace ProArch.CodingTest.Services
                 {
                     if (i == Constants.RetryCount - 1)
                     {
-                        //_logger.LogInformation($"Couldn't get data from External service in {Constants.RetryCount} attempts. Now trying Failover class.", null);  //Log that we could not get data from external so now going to try Failover
                         var failOverInvoiceData = _failoverInvoiceService.GetInvoices(supplierId);
                         if (failOverInvoiceData.Timestamp < DateTime.Now.AddMonths(-1))
                         {
-                            throw new Exception("GetTotalSpend Failed.");
+                            throw new CustomException("GetTotalSpend Failed."); // intentionaly throwing new exception instead of just throw (stack trace not needed).
                         }
 
                         return new SpendSummary("Failover supplier data", new List<SpendDetail> { new SpendDetail(2017, 6000.00m) }); // Due to time restriction I am not writing the code to group based on year etc.

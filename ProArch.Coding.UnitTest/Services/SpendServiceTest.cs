@@ -1,5 +1,6 @@
 ﻿namespace ProArch.Coding.UnitTest.Services
 {
+    using Microsoft.Extensions.Logging.Abstractions;
     using Moq;
     using NUnit.Framework;
     using ProArch.CodingTest.Interfaces;
@@ -23,7 +24,7 @@
            var spendService = new SpendService(mockSupplier.Object,
                 mockRepository.Object,
                 mockFailover.Object,
-                null);
+               new NullLogger<SpendServiceTest>());  // We can replace with other loggers etc
 
             var result = spendService.GetTotalSpend(1);
             result.Name.Should().Be("External Supplier Without failover");
@@ -43,7 +44,7 @@
             var spendService = new SpendService(mockSupplier.Object,
                 mockRepository.Object,
                 mockFailover.Object,
-                null);
+                new NullLogger<SpendServiceTest>()); // We can replace with other loggers etc
 
             var result = spendService.GetTotalSpend(2);
             result.Name.Should().Be("Internal Supplier");
