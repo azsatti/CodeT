@@ -17,7 +17,7 @@
            var mockSupplier = new Mock<ISupplierService>();
            mockSupplier.Setup(m => m.GetById(1)).Returns(supplier);
            mockSupplier.Verify();
-           var mockRepository = new Mock<IInvoiceRepositoryService>();
+           var mockRepository = new Mock<ISpendService>();
            var mockFailover = new Mock<IFailoverInvoiceService>();
 
            var spendService = new SpendService(mockSupplier.Object,
@@ -37,7 +37,7 @@
             mockSupplier.Setup(m => m.GetById(2)).Returns(supplier);
             mockSupplier.Verify();
 
-            var mockRepository = new Mock<IInvoiceRepositoryService>();
+            var mockRepository = new Mock<ISpendService>();
             var mockFailover = new Mock<IFailoverInvoiceService>();
 
             var spendService = new SpendService(mockSupplier.Object,
